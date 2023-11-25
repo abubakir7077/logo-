@@ -1,0 +1,370 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    background: #0F0F0F;
+}
+
+.kab {
+    padding-top: 31px;
+    display: flex;
+    gap: 40px;
+}
+
+.kab li:nth-child(1) {
+    color: #FFF;
+    font-family: PTSans-Regular;
+    font-size: 14px;
+}
+
+.kab li:nth-child(2) {
+    color: var(--gray, #969696);
+    font-family: PTSans-Regular;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.kab li:nth-child(3) {
+    color: var(--gray, #969696);
+    font-family: PTSans-Regular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.kab li:hover {
+    cursor: pointer;
+}
+
+.qqq {
+    padding: 0px 20px;
+
+}
+
+.head p {
+    padding-top: 20px;
+    padding-right: 450px;
+    color: #FFF;
+    font-family: PostNoBillsJaffna-Bold;
+    font-size: 36px;
+    font-style: normal;
+}
+
+.menu {
+    cursor: pointer;
+    display: flex;
+    gap: 40px;
+    padding-top: 29px;
+    padding-left: 65px;
+}
+
+.fon {
+    justify-content: center;
+    background-image: url(../images/Rectangle\ 3.png);
+    width: 100%;
+    height: 810px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cank {
+    width: 320px;
+    height: 320px;
+    border: 4px solid #FFF;
+    padding-top: 93px;
+    padding-left: 67px;
+}
+
+.cank span:nth-child(1) {
+    width: 185px;
+    height: 86px;
+    color: #FFF;
+    text-align: center;
+    font-family: PostNoBillsJaffna-Bold;
+    font-size: 64px;
+    font-style: normal;
+}
+
+.pi {
+    padding-left: 13px;
+    width: 180px;
+    height: 44px;
+    color: #FFF;
+    text-align: center;
+    font-family: PTSans-Regular;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.cank hr {
+    width: 179px;
+    height: 2px;
+    background: #FFF;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+}
+
+.fon p {
+    margin-left: 390px;
+    padding-top: 80px;
+    width: 730px;
+    color: #FFF;
+    text-align: center;
+    font-family: PTSans-Regular;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.men {
+    background-image: url(../images/Rectangle\ 8.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 880px;
+    height: 730px;
+}
+
+.box {
+    width: 1040px;
+    height: 730px;
+    background: #000;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.box ul {
+    gap: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box p {
+    padding-top: 93px;
+    display: flex;
+    justify-content: center;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: PlayfairDisplay-Bold;
+    font-size: 36px;
+}
+
+.box hr {
+    margin-top: 50px;
+    width: 120px;
+    margin-left: 350px;
+}
+
+.rib li {
+    color: var(--white, #FFF);
+    font-family: PlayfairDisplay-Regular;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.rib {
+    margin-top: 80px;
+    display: flex;
+    justify-content: start;
+}
+
+.rib li:nth-child(1) {
+    padding-left: 35px;
+}
+
+.rib li:nth-child(2) {
+    padding-left: 128px;
+}
+
+.rib li:nth-child(3) {
+    padding-left: 125px;
+}
+
+.men p {
+    margin-top: 484px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: PlayfairDisplay-Bold;
+    font-size: 36px;
+}
+
+.men hr {
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    width: 120px;
+}
+
+.men button {
+    margin-left: 290px;
+    width: 138px;
+    height: 47px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: PTSans-Regular;
+    font-size: 18px;
+    border: 1px solid var(--white, #FFF);
+    background-color: transparent;
+}
+
+.boy {
+    background-image: url(../images/Rectangle\ 9.png);
+    width: 730px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col {
+    display: flex;
+}
+
+.as {
+    background-color: #000;
+    width: 1040px;
+    height: 500px;
+}
+
+.as p:nth-child(1) {
+    padding-top: 80px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 36px;
+}
+
+.as hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 385px;
+    width: 120px;
+}
+
+.arcu {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: PTSans-Regular;
+    font-size: 14px;
+}
+
+.as button {
+    margin-top: 45px;
+    margin-left: 325px;
+    padding: 12px 28px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: PTSans-Regular;
+    font-size: 18px;
+    border: 1px solid var(--white, #FFF);
+    background-color: transparent;
+}
+
+.watch {
+    background-color: #000;
+    width: 100%;
+    height: 1150px;
+}
+
+.watch ul {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.watch p {
+    padding-top: 120px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 36px;
+}
+
+.rub {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    color: var(--white, #FFF);
+    font-family: PlayfairDisplay-Regular;
+    font-size: 18px;
+}
+
+.watch hr {
+    margin-left: 700px;
+    margin-top: 40px;
+    margin-bottom: 81px;
+    width: 120px;
+}
+
+.ur {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 80px;
+}
+
+.our {
+    height: 362px;
+    background: #0F0F0F;
+}
+
+.our p {
+    padding-top: 60px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: PlayfairDisplay-Bold;
+    font-size: 36px;
+}
+
+.our hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 700px;
+    width: 120px;
+}
+
+.our ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.foot {
+    
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ball {
+    display: flex;
+    justify-content: center;
+
+}
+
+.shop p:nth-child(1) {
+    color: var(--white, #FFF);
+    font-family: PlayfairDisplay-Regular;
+    font-size: 24px;
+}
+
